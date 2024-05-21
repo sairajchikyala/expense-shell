@@ -1,7 +1,7 @@
 example(){
   echo hello example
 }
-example(){
+example1(){
   echo value of 1 - $1
   echo "value of * - $*"
   echo "value of # - $#"
