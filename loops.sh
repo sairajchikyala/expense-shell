@@ -10,3 +10,12 @@ while [ $i -lt 10 ]; do
    echo fruit - $fruit
    done
 
+example3() {
+  echo hello
+  return 10
+  echo bye
+}
+
+example3
+ echo return status - $?
+
